@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,064.021" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/target/test-classes:/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/target/classes:/Users/sathya/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/sathya/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/sathya/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/sathya/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/sathya/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/sathya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sathya/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/sathya/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/sathya/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/sathya/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/sathya/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/Users/sathya/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar:/Users/sathya/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/sathya/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/sathya/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/sathya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/sathya/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sathya/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/sathya/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/sathya/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/sathya/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/sathya/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/sathya/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/sathya/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/sathya/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/sathya/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/sathya/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/sathya/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/sathya/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/sathya/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/sathya/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/sathya/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/Users/sathya/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/sathya/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/sathya/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/sathya/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-testng/6.9.1/cucumber-testng-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/sathya/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/sathya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-picocontainer/6.9.1/cucumber-picocontainer-6.9.1.jar:/Users/sathya/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/sathya/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/sathya/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/sathya/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sathya/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sathya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sathya/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sathya/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sathya/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sathya/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sathya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sathya/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sathya/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sathya/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/sathya/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sathya/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/sathya/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/sathya/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/sathya/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/sathya/.m2/repository/net/masterthought/cucumber-reporting/5.5.2/cucumber-reporting-5.5.2.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/sathya/.m2/repository/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2.jar:/Users/sathya/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/sathya/.m2/repository/joda-time/joda-time/2.10.9/joda-time-2.10.9.jar:/Users/sathya/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/sathya/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar:/Users/sathya/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/sathya/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/sathya/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/sathya/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/sathya/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sathya/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/sathya/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/sathya/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/sathya/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/sathya/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/sathya/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/sathya/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/sathya/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/sathya/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/sathya/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/sathya/.m2/repository/org/json/json/20201115/json-20201115.jar:/Users/sathya/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/sathya/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/sathya/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/sathya/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/sathya/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/sathya/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/sathya/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/sathya/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/sathya/.m2/repository/org/uncommons/reportng/1.1.2/reportng-1.1.2.jar:/Users/sathya/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/sathya/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/sathya/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/sathya/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/sathya/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/sathya/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/sathya/.m2/repository/io/testsmith/webdriver-event-listeners/0.2/webdriver-event-listeners-0.2.jar:/Users/sathya/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/sathya/.m2/repository/org/checkerframework/checker-qual/3.18.0/checker-qual-3.18.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AE"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/target/surefire/surefirebooter14908307404328422238.jar /Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/target/surefire 2021-10-04T21-51-11_435-jvmRun1 surefire17817852717018198305tmp surefire_010140716257239222162tmp"/>
+    <property name="http.nonProxyHosts" value="dewa.gov.ae|*.dewa.gov.ae|dewacc.ae|*.dewacc.ae|smartgrid.local|*.smartgrid.local|wcweb.wc.local|*.wcweb.wc.local|wc.local|*.wc.local|dewaserv5334|*.dewaserv5334|dewaserv5353|*.dewaserv5353|dewaserv5354|*.dewaserv5354|dewaserv5355|*.dewaserv5355|dewaserv5332|*.dewaserv5332|dewaserv5332|*.dewaserv5332|dewaserv5333|*.dewaserv5333|dewaserv5336|*.dewaserv5336|dewaserv5337|*.dewaserv5337|dewaserv5338|*.dewaserv5338|dewaserv5339|*.dewaserv5339|dewaserv5340|*.dewaserv5340|dewaserv5341|*.dewaserv5341|dewaserv2831|*.dewaserv2831|dewanationaldaycelebrations.com|*.dewanationaldaycelebrations.com|https://dewa-blr.web.app|*.https://dewa-blr.web.app|dewaev2.dewa.gov.ae|*.dewaev2.dewa.gov.ae|veritas2|*.veritas2|dewaev3.dewa.gov.ae|*.dewaev3.dewa.gov.ae|veritas3|*.veritas3|evsmtp.dewa.gov.ae|*.evsmtp.dewa.gov.ae|veritas4|*.veritas4|filearchive.dewa.gov.ae|*.filearchive.dewa.gov.ae|veritas5|*.veritas5|myarchive.dewa.gov.ae|*.myarchive.dewa.gov.ae|veritas1|*.veritas1"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/target/test-classes:/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/target/classes:/Users/sathya/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/sathya/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/sathya/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/sathya/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/sathya/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/sathya/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/sathya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sathya/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/sathya/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/sathya/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/sathya/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/Users/sathya/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/sathya/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/Users/sathya/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar:/Users/sathya/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/sathya/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/sathya/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/sathya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/sathya/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sathya/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/sathya/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/sathya/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/sathya/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/sathya/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/sathya/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/sathya/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/sathya/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/sathya/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/sathya/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/sathya/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/sathya/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/sathya/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/sathya/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/sathya/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/Users/sathya/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/sathya/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/sathya/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/sathya/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/sathya/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-testng/6.9.1/cucumber-testng-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/sathya/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/sathya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-picocontainer/6.9.1/cucumber-picocontainer-6.9.1.jar:/Users/sathya/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/sathya/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/sathya/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/sathya/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/sathya/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/sathya/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sathya/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sathya/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sathya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sathya/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sathya/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sathya/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sathya/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sathya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sathya/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sathya/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sathya/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/sathya/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sathya/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/sathya/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/sathya/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/sathya/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/sathya/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/sathya/.m2/repository/net/masterthought/cucumber-reporting/5.5.2/cucumber-reporting-5.5.2.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/sathya/.m2/repository/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2.jar:/Users/sathya/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/sathya/.m2/repository/joda-time/joda-time/2.10.9/joda-time-2.10.9.jar:/Users/sathya/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/sathya/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar:/Users/sathya/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/sathya/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/sathya/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/sathya/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/sathya/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sathya/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/sathya/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/sathya/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/sathya/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/sathya/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/sathya/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/sathya/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/sathya/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/sathya/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/sathya/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/sathya/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/sathya/.m2/repository/org/json/json/20201115/json-20201115.jar:/Users/sathya/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/sathya/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/sathya/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/sathya/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/sathya/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/sathya/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/sathya/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/sathya/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/sathya/.m2/repository/org/uncommons/reportng/1.1.2/reportng-1.1.2.jar:/Users/sathya/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/sathya/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/sathya/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/sathya/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/sathya/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/sathya/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/sathya/.m2/repository/io/testsmith/webdriver-event-listeners/0.2/webdriver-event-listeners-0.2.jar:/Users/sathya/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/sathya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/sathya/.m2/repository/org/checkerframework/checker-qual/3.18.0/checker-qual-3.18.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sathya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/target/surefire/surefirebooter14908307404328422238.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="dewa.gov.ae|*.dewa.gov.ae|dewacc.ae|*.dewacc.ae|smartgrid.local|*.smartgrid.local|wcweb.wc.local|*.wcweb.wc.local|wc.local|*.wc.local|dewaserv5334|*.dewaserv5334|dewaserv5353|*.dewaserv5353|dewaserv5354|*.dewaserv5354|dewaserv5355|*.dewaserv5355|dewaserv5332|*.dewaserv5332|dewaserv5332|*.dewaserv5332|dewaserv5333|*.dewaserv5333|dewaserv5336|*.dewaserv5336|dewaserv5337|*.dewaserv5337|dewaserv5338|*.dewaserv5338|dewaserv5339|*.dewaserv5339|dewaserv5340|*.dewaserv5340|dewaserv5341|*.dewaserv5341|dewaserv2831|*.dewaserv2831|dewanationaldaycelebrations.com|*.dewanationaldaycelebrations.com|https://dewa-blr.web.app|*.https://dewa-blr.web.app|dewaev2.dewa.gov.ae|*.dewaev2.dewa.gov.ae|veritas2|*.veritas2|dewaev3.dewa.gov.ae|*.dewaev3.dewa.gov.ae|veritas3|*.veritas3|evsmtp.dewa.gov.ae|*.evsmtp.dewa.gov.ae|veritas4|*.veritas4|filearchive.dewa.gov.ae|*.filearchive.dewa.gov.ae|veritas5|*.veritas5|myarchive.dewa.gov.ae|*.myarchive.dewa.gov.ae|veritas1|*.veritas1"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="sathya"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sathya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/x1/qr7gb78n6ts27h62g6bjt2cw0000gp/T/"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="/Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/sathya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="dewa.gov.ae|*.dewa.gov.ae|dewacc.ae|*.dewacc.ae|smartgrid.local|*.smartgrid.local|wcweb.wc.local|*.wcweb.wc.local|wc.local|*.wc.local|dewaserv5334|*.dewaserv5334|dewaserv5353|*.dewaserv5353|dewaserv5354|*.dewaserv5354|dewaserv5355|*.dewaserv5355|dewaserv5332|*.dewaserv5332|dewaserv5332|*.dewaserv5332|dewaserv5333|*.dewaserv5333|dewaserv5336|*.dewaserv5336|dewaserv5337|*.dewaserv5337|dewaserv5338|*.dewaserv5338|dewaserv5339|*.dewaserv5339|dewaserv5340|*.dewaserv5340|dewaserv5341|*.dewaserv5341|dewaserv2831|*.dewaserv2831|dewanationaldaycelebrations.com|*.dewanationaldaycelebrations.com|https://dewa-blr.web.app|*.https://dewa-blr.web.app|dewaev2.dewa.gov.ae|*.dewaev2.dewa.gov.ae|veritas2|*.veritas2|dewaev3.dewa.gov.ae|*.dewaev3.dewa.gov.ae|veritas3|*.veritas3|evsmtp.dewa.gov.ae|*.evsmtp.dewa.gov.ae|veritas4|*.veritas4|filearchive.dewa.gov.ae|*.filearchive.dewa.gov.ae|veritas5|*.veritas5|myarchive.dewa.gov.ae|*.myarchive.dewa.gov.ae|veritas1|*.veritas1"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.MobileTestRunner$TestRunner" time="1.282">
+    <failure message="Connection refused&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Abdurahmans-MacBook-Pro.local&apos;, ip: &apos;fd62:500c:36d5:0:a035:b117:9f7a:aee6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.1&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Abdurahmans-MacBook-Pro.local', ip: 'fd62:500c:36d5:0:a035:b117:9f7a:aee6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
+Driver info: driver.version: AppiumDriver
+Caused by: java.net.ConnectException: Connection refused
+</failure>
+    <system-out><![CDATA[...
+... TestNG 7.4.0 by Cédric Beust (cedric@beust.com)
+...
+
+On start
+
+Scenario: Zoom Application feature check &amp#27;[90m# src/test/java/features/mobile.feature:4&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.WebDriverException: Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Abdurahmans-MacBook-Pro.local', ip: 'fd62:500c:36d5:0:a035:b117:9f7a:aee6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
+Driver info: driver.version: AppiumDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at base.MobileBaseTest.initializeDriver(MobileBaseTest.java:155)
+	at mobilesteps.Hook.initializing(Hook.java:33)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:669)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:645)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at base.MobileBaseTest.initializeDriver(MobileBaseTest.java:155)
+	at mobilesteps.Hook.initializing(Hook.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI launch the zooom app&amp#27;[0m           &amp#27;[90m# mobilesteps.ZoomTest.ilaunchtheApplication()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mClick Join a meeting&amp#27;[0m              &amp#27;[90m# mobilesteps.ZoomTest.iClickJoinMetingBUtton()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mJoin button is disabled&amp#27;[0m           &amp#27;[90m# mobilesteps.ZoomTest.iShouldSeeTheButtonDisabled()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="runner.MobileTestRunner$TestRunner" time="14.456"/>
+  <testcase name="runScenario" classname="runner.MobileTestRunner$TestRunner" time="1,032.048">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.id: us.zoom.videomeetings:id/txtMsg (tried for 1000 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: us.zoom.videomeetings:id/txtMsg (tried for 1000 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Abdurahmans-MacBook-Pro.local', ip: 'fd62:500c:36d5:0:a035:b117:9f7a:aee6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/sathya/Documents/Abu..., appPackage: us.zoom.videomeetings, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/sathya/Documents/Abu..., automationName: UiAutomator2, deviceName: Pixel_XL_API_28:5554, newCommandTimeout: 150000, noReset: true, platformName: android, platformVersion: 9.0}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 150000, noReset: true, pixelRatio: 3.5, platform: LINUX, platformName: ANDROID, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: c3558ef1-177c-4865-b0bb-f6df249224f2
+*** Element info: {Using=id, value=us.zoom.videomeetings:id/txtMsg}
+</failure>
+    <system-out><![CDATA[
+Scenario: Zoom Application invalid meeting check                 &amp#27;[90m# src/test/java/features/mobile.feature:14&amp#27;[0m
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.21.0
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
+&amp#27;[35m[Appium]&amp#27;[39m   logFile: /Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/ServerLogs/server.log
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:4723
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI launch the zooom app&amp#27;[0m                                   &amp#27;[90m# mobilesteps.ZoomTest.ilaunchtheApplication()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick Join a meeting&amp#27;[0m                                      &amp#27;[90m# mobilesteps.ZoomTest.iClickJoinMetingBUtton()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mEnter any 9 digits meeting id and join the meeting&amp#27;[0m        &amp#27;[90m# mobilesteps.ZoomTest.iEnterTheMeetinGODandJoin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mToggle on Turn off my video and Put the app in background&amp#27;[0m &amp#27;[90m# mobilesteps.ZoomTest.iToggelVideoOnOff()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mlaunch to foreground Invalid meeting Id text in pop up&amp#27;[0m    &amp#27;[90m# mobilesteps.ZoomTest.iShoulSeetheInvalidText()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: us.zoom.videomeetings:id/txtMsg (tried for 1000 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages.ZoomMobilePage.getErrorText(ZoomMobilePage.java:72)
+	at mobilesteps.ZoomTest.iShoulSeetheInvalidText(ZoomTest.java:82)
+	at ✽.launch to foreground Invalid meeting Id text in pop up(file:///Users/sathya/Documents/AbuDhabhi/Mobile-Backend-Web/src/test/java/features/mobile.feature:19)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Abdurahmans-MacBook-Pro.local', ip: 'fd62:500c:36d5:0:a035:b117:9f7a:aee6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/sathya/Documents/Abu..., appPackage: us.zoom.videomeetings, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/sathya/Documents/Abu..., automationName: UiAutomator2, deviceName: Pixel_XL_API_28:5554, newCommandTimeout: 150000, noReset: true, platformName: android, platformVersion: 9.0}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 150000, noReset: true, pixelRatio: 3.5, platform: LINUX, platformName: ANDROID, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: c3558ef1-177c-4865-b0bb-f6df249224f2
+*** Element info: {Using=id, value=us.zoom.videomeetings:id/txtMsg}
+	at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at pages.ZoomMobilePage.getErrorText(ZoomMobilePage.java:72)
+	at mobilesteps.ZoomTest.iShoulSeetheInvalidText(ZoomTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2021 9:51:46 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

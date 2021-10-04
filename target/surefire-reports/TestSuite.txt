@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1,064.021 s <<< FAILURE! - in TestSuite
+runScenario(runner.MobileTestRunner$TestRunner)  Time elapsed: 1.282 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Abdurahmans-MacBook-Pro.local', ip: 'fd62:500c:36d5:0:a035:b117:9f7a:aee6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
+Driver info: driver.version: AppiumDriver
+Caused by: java.net.ConnectException: Connection refused
+
+runScenario(runner.MobileTestRunner$TestRunner)  Time elapsed: 1,032.048 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: us.zoom.videomeetings:id/txtMsg (tried for 1000 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Abdurahmans-MacBook-Pro.local', ip: 'fd62:500c:36d5:0:a035:b117:9f7a:aee6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/sathya/Documents/Abu..., appPackage: us.zoom.videomeetings, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/sathya/Documents/Abu..., automationName: UiAutomator2, deviceName: Pixel_XL_API_28:5554, newCommandTimeout: 150000, noReset: true, platformName: android, platformVersion: 9.0}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 150000, noReset: true, pixelRatio: 3.5, platform: LINUX, platformName: ANDROID, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: c3558ef1-177c-4865-b0bb-f6df249224f2
+*** Element info: {Using=id, value=us.zoom.videomeetings:id/txtMsg}
+

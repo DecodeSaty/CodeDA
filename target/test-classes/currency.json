@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "currency": "BTC"
+  },
+  {
+    "id": "2",
+    "currency" :"LTC"
+  },
+  {
+    "id": "3",
+    "currency" :"NMC"
+  },
+  {
+    "id": "4",
+    "currency" :"TRC"
+  },
+  {
+    "id": "5",
+    "currency" :"PPC"
+  },
+  {
+  "id": "6",
+  "currency" :"NVC"
+},
+  {
+    "id": "7",
+    "currency" :"DVC"
+  },
+  {
+    "id": "8",
+    "currency" :"FTC"
+  },
+  {
+    "id": "9",
+    "currency" :"MNC"
+  },
+  {
+  "id": "10",
+  "currency" :"FRC"
+}
+]
